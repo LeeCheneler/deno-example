@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "example-import": "deno run ./src/examples/import.ts",
+    "example-network": "deno run ./src/examples/network.ts",
+    "example-read": "deno run ./src/examples/read.ts",
+    "example-preact": "deno run ./src/examples/preact.tsx",
+    "example-serve": "deno run ./src/examples/serve.ts"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "imports": {
+    "preact": "npm:preact@^10.26.4",
+    "preact-render-to-string": "npm:preact-render-to-string@^6.5.13"
+  }
+}
