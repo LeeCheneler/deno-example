@@ -40,6 +40,9 @@ jobs:
       - name: Check
         run: deno check .
 
+      - name: Test
+        run: deno test
+
       - name: Deploy
         uses: denoland/deployctl@v1
         with:
