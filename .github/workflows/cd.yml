@@ -46,6 +46,6 @@ jobs:
       - name: Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "mage-docs"
-          entrypoint: "./src/serve.ts"
+          project: "leecheneler-deno-example"
+          entrypoint: "./src/examples/serve.ts"
           root: "."
